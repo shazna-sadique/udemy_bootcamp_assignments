@@ -1,0 +1,18 @@
+img {
+    width: 20%; 
+    margin: calc(10%/2);
+}
+/* 10% (remaining space after the 30% width taken by the each image),
+then to make space between each images add the margin to all the sides,
+consider it as distributing the 10% between the two sides of the images.
+thus 10% / 2 . */
+
+nav{
+    text-transform:uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/2);
+    padding: 1.5em 0;
+    font-family: 'Roboto', sans-serif;
+    font-size:2em;
+}
